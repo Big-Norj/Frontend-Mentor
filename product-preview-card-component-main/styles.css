@@ -1,0 +1,60 @@
+
+body {
+    background:hsl(30, 38%, 92%);
+}
+
+.hero {
+    display: flex;
+    margin: 30px 45px;
+    padding: 30px 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img img {
+   width: fit-content;
+   height: 450px;
+}
+
+.hero-content {
+    justify-content: center;
+    text-align: start;
+     padding: 15px 25px; 
+    background: white;
+    width: 200px;
+   height: 421px
+}
+
+h3 {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+}
+
+.hero-num {
+    display: flex;
+}
+
+.hero-num h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+
+button {
+    width: 80%;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    margin-left: 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
